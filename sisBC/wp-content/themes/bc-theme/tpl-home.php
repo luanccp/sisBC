@@ -18,12 +18,12 @@ get_header ( $template_name );
   <?php include_once 'includes/html/html-head.php';?>  
   <body class="fixed-header dashboard">
 	<!-- BEGIN SIDEBPANEL-->
-    <?php get_sidebar();?>
+    
     <!-- END SIDEBPANEL-->
 	<!-- START PAGE-CONTAINER -->
 	<div class="page-container ">
 		<!-- START HEADER -->
-      <?php include_once 'includes/html/html-topbar.php';?>
+      <?php include_once 'includes/html/html-topbar-basic.php';?>
       <!-- END HEADER -->
 		<!-- START PAGE CONTENT WRAPPER -->
 		<div class="page-content-wrapper ">
