@@ -1,0 +1,25 @@
+{
+	"name": "ConciliaCartao/libs",
+	"type": "library",
+	"description": "Concilia Cartao - Bibliotecas Necessarias",
+	"keywords": ["concilia", "financeiro", "vendas"],
+	"homepage": "https://concilia.ilha.ag",
+	"authors": [
+		{
+			"name": "Ilha Tecnologia",
+			"email": "contato@ilha.ag"
+		}, {
+			"name": "DEV ILHA",
+			"email": "devops@ilha.ag"
+		}
+	],
+	"require": {
+		"pagarme/pagarme-php": "*",
+		"phpoffice/phpexcel": "*",
+		"phpoffice/phpword": "*",
+		"setasign/fpdi-fpdf": "*",
+		"setasign/fpdi-tcpdf": "*",
+		"dompdf/dompdf": "*",
+		"twig/twig": "*"
+	}
+}
